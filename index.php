@@ -68,7 +68,7 @@ width: 100px;
 </head>
 <body text="#112776 ">
 <?php
-$con=mysqli_connect('localhost','munera','1234','robotarm');
+$con=mysqli_connect('HOST','USERNAME','PASS','DB NAME');
 if(!$con)
   echo 'Connection error';
 else
